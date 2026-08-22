@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages SPA fallback: rewrite path-based URLs to query params.
+        // Seed paths (/123456) -> /?seed=123456
+        // Scenario paths (/tutorial) -> /?scenario=tutorial
+        // NOTE (CODE_04): Seed format (6-digit integer) is hardcoded here because
+        // 404.html is a standalone file with no access to ES modules or GAME_CONFIG.
+        // If GAME_CONFIG.SEED.MIN/MAX ever change, update the regex below to match.
+        (function () {
+            var path = window.location.pathname.replace(/^\//, '');
+            if (/^\d{6}$/.test(path)) {
+                window.location.replace('/?seed=' + path);
+            } else if (/^[a-z]+$/.test(path)) {
+                window.location.replace('/?scenario=' + path);
+            } else {
+                window.location.replace('/');
+            }
+        })();
+    </script>
+</head>
+<body></body>
+</html>

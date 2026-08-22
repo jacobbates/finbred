@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+	
+	<path id="tail" d="m809 637c0 0 38.32 100.31 114 137 36 17.45 104.46 35.01 107 35.95 20 7.46 31.5 5.55-0.5-103-32-108.54-123.5-157.95-123.5-157.95 0 0 114.5-45.45 122-135 7.5-89.55 25-103 23-119.05-2-16.04-163-4.4-243 174.05-80 178.45 1 168 1 168z" style="fill:#f9a33d;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="tail-dt1" fill-rule="evenodd" d="m964 412c0 0-72 172.19-272 82-200-90.19 312 96.19 250 224" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="fin2" d="m247.12 713.48c0 0-5.31 84.26 15.43 132.07 20.75 47.81 44.36 109.38 152.58 135.66 108.21 26.29-56.84-228.22-104.58-271.81" style="fill:#e97230;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="dorsal" d="m612.09 110.64c0 0-95.73-44.53-209 93.6-98.73 120.39-98.33 120.16-98.33 120.16 0 0 405.57 125.9 399.45 123.31-6.07-2.57 90.32-157.5-92.12-337.07z" style="fill:#f9a33d;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="dorsal-dt1" fill-rule="evenodd" d="m540 172c0 0-66 34.19-70 76" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="dorsal-dt2" fill-rule="evenodd" d="m604 188c0 0-92 50.19-104 110" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="dorsal-dt3" fill-rule="evenodd" d="m644 224c0 0-84.1 44.33-84.1 84.1" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="body" d="m143 739c0 0 85.5 87.55 156 104 70.5 16.45 126.5 19.55 163 23 36.5 3.45 211-72.45 239-106 28-33.55 143.5-152.45 145-189 1.5-36.55-46-121.95-61-134-15-12.05-81-90.45-135-123-54-32.55-195.5-90.95-313-61-117.5 29.95-189 123.55-195 129-6 5.45-71 148.05-62 232 9 83.95 63 125 63 125z" style="fill:#e97230;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="fin1" d="m519 750c0 0 8 84.05 36 128 28 43.95 61 101.05 172 110 111 8.95-92-216.45-146-252" style="fill:#e97230;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="mouth" d="m197.1 634.81l17.49 42.95c0 0 41.16 53.96 54.53 44.85 13.38-9.11 37.05-42.9 27.79-63.94-9.26-21.04-10.29-49.1-64.83-48.67-54.53 0.43-34.98 24.81-34.98 24.81z" style="fill:#4c276b;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="tongue" d="m210.9 704.66c0 0 93.1-95.12 93.1-13.75 0 81.36-147.06 50.3-93.1 13.75z" style="fill:#de5050;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="gill" fill-rule="evenodd" d="m547 476c0 0 50 92.05-13 186" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="gill-dt1" fill-rule="evenodd" d="m606.41 488.79c0 0 33.25 36.69-2.44 152.95" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="eyeline1" fill-rule="evenodd" d="m438 593c0 0-39.5 17.05-97-9-57.5-26.05-54.5-81.95-44-77" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="eyeline2" fill-rule="evenodd" d="m215.46 525.29c0 0-32.26 80.21-94.86 71.35" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="eyebag1" fill-rule="evenodd" d="m369.5 572c-48.39 0-87.5-39.11-87.5-87.5 0-48.39 39.11-87.5 87.5-87.5 48.39 0 87.5 39.11 87.5 87.5 0 48.39-39.11 87.5-87.5 87.5z" style="fill:#996bb1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="eyebag2" fill-rule="evenodd" d="m143.5 572c-48.39 0-87.5-39.11-87.5-87.5 0-48.39 39.11-87.5 87.5-87.5 48.39 0 87.5 39.11 87.5 87.5 0 48.39-39.11 87.5-87.5 87.5z" style="fill:#996bb1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="eye1 copy" fill-rule="evenodd" d="m367.5 539c-48.39 0-87.5-39.11-87.5-87.5 0-48.39 39.11-87.5 87.5-87.5 48.39 0 87.5 39.11 87.5 87.5 0 48.39-39.11 87.5-87.5 87.5z" style="fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="eye2 copy" fill-rule="evenodd" d="m141.5 541c-48.39 0-87.5-39.11-87.5-87.5 0-48.39 39.11-87.5 87.5-87.5 48.39 0 87.5 39.11 87.5 87.5 0 48.39-39.11 87.5-87.5 87.5z" style="fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+</svg>

@@ -1,0 +1,14 @@
+{
+    "name": "Finbred",
+    "short_name": "Finbred",
+    "description": "A browser-based deck-builder. Draft fish, build combos, and survive ammonia crashes to collect 3 Omega Fish before Day 30.",
+    "start_url": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#111611",
+    "theme_color": "#567158",
+    "icons": [
+        { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    ]
+}

@@ -1,0 +1,9 @@
+*.html linguist-vendored
+*.css linguist-vendored
+*.svg linguist-vendored
+*.md linguist-vendored
+*.wav linguist-vendored
+*.mp3 linguist-vendored
+*.ogg linguist-vendored
+*.png linguist-vendored
+*.ico linguist-vendored

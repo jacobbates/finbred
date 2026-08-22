@@ -1,0 +1,42 @@
+Copyright (c) 2026 JB. All Rights Reserved.
+
+TERMS OF USE
+
+This software and its associated assets (collectively, "the Game") are the
+exclusive property of the copyright holder. By accessing the Game you agree
+to the following terms:
+
+1. PERMITTED USE
+   You may access and play the Game through a web browser at the URL where
+   it is officially hosted."
+
+2. RESTRICTIONS
+   You may NOT, without prior written permission from the copyright holder:
+   - Copy, reproduce, or redistribute the Game or any part of it
+   - Modify, adapt, translate, or create derivative works based on the Game
+   - Decompile, reverse-engineer, or disassemble the Game's source code
+   - Use the Game or any part of it for commercial purposes
+   - Remove or alter any copyright notices, trademarks, or attributions
+   - Host, mirror, or re-serve the Game from any other location
+
+3. THIRD-PARTY LIBRARIES
+   The Game includes or references the following third-party libraries, each
+   of which retains its own license:
+
+   - Bootstrap (MIT License) — https://getbootstrap.com
+   - Chart.js (MIT License) — https://www.chartjs.org
+   - Howler.js (MIT License) — https://howlerjs.com
+   - Iconify (MIT License) — https://iconify.design
+
+   These libraries are loaded via CDN and are NOT covered by this license.
+   Their respective licenses apply independently.
+
+4. NO WARRANTY
+   THE GAME IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES,
+   OR OTHER LIABILITY ARISING FROM USE OF THE GAME.
+
+5. TERMINATION
+   This license terminates automatically if you violate any of its terms.
+   Upon termination you must destroy all copies of the Game in your
+   possession.

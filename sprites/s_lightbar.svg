@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2115 201">
+	
+	<path id="t-anchor-1" d="m225.88 2.13l1.17 62.87h48.18l1.17-62.71z" style="fill:#798078;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="t-anchor-2" d="m1839.11 3.14l1.17 62.27h48.18l1.17-62.11z" style="fill:#798078;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="t-housing-upper" d="m5.33 64.56l2104.25-0.29-1.5 76.04-2101.51-0.66z" style="fill:#798078;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="t-light-upper" d="m82.63 67.33l1932.55 0.03-1.31 69.53-1930.15-0.28z" style="fill:var(--light-upper-fill, #bdc2a7);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="t-housing-lower" d="m7.59 138.29l52.14 62.75 1985.8-3.05 62.26-57.88z" style="fill:#798078;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="t-light-lower" d="m85.49 139.82l48.4 57.91 1826.14-2.97 56.97-53.06z" style="fill:var(--light-lower-fill, #f2f4e8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<g id="tank-light">
+	</g>
+</svg>
