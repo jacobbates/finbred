@@ -80,11 +80,11 @@
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         <link rel="preconnect" href="https://api.iconify.design" />
-        <link rel="preload" href="finbred.min.js?v=1787556062919" as="script" />
+        <link rel="preload" href="finbred.min.js?v=1787807936094" as="script" />
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-        <link rel="stylesheet" href="finbred.min.css?v=1787556062919" />
+        <link rel="stylesheet" href="finbred.min.css?v=1787807936094" />
     </head>
 
     <body class="bg-ink">
@@ -270,12 +270,12 @@
                                     <span data-ui="max-eggs"></span>
                                 </span>
                             </div>
-                            <div class="stat-item text-shells" data-tooltip="Stashed Shells / Max Shells">
-                                <div id="stat-shell-icon" class="ui-svg-inline"></div>
-                                <span data-ui="shells">0</span>
+                            <div class="stat-item text-science" data-tooltip="Stashed Science / Max Science">
+                                <div id="stat-science-icon" class="ui-svg-inline"></div>
+                                <span data-ui="science">0</span>
                                 <span class="text-muted">
                                     <span class="slash">/</span>
-                                    <span data-ui="max-shells"></span>
+                                    <span data-ui="max-science"></span>
                                 </span>
                             </div>
                         </div>
@@ -683,7 +683,7 @@
                             <span>Total Earned:</span>
                             <span>
                                 <span id="summary-eggs" class="text-egg me-3"></span>
-                                <span id="summary-shells" class="text-shells"></span>
+                                <span id="summary-science" class="text-science"></span>
                             </span>
                         </div>
                     </div>
@@ -704,7 +704,7 @@
                         </h5>
                         <div class="ms-auto d-flex gap-3 align-items-center">
                             <span id="shop-currency-eggs" class="shop-currency-item" data-tooltip="Stashed Eggs / Max Eggs"></span>
-                            <span id="shop-currency-shells" class="shop-currency-item" data-tooltip="Stashed Shells / Max Shells"></span>
+                            <span id="shop-currency-science" class="shop-currency-item" data-tooltip="Stashed Science / Max Science"></span>
                         </div>
                     </div>
                     <div class="modal-body bg-paper p-0">
@@ -833,7 +833,7 @@
                         </button>
                         <div class="d-flex align-items-center gap-2">
                             <div id="footer-market-btns">
-                                <button id="btn-buy-capacity" class="btn btn-retro-primary d-flex align-items-center gap-1" data-action="buyCapacity">
+                                <button id="btn-buy-capacity" class="btn btn-retro-science d-flex align-items-center gap-1" data-action="buyCapacity">
                                     EXPAND (
                                     <span id="shop-capacity-cost">2</span>
                                     <div id="btn-capacity-icon" class="ui-svg-mini"></div>
@@ -841,7 +841,7 @@
                                 </button>
                             </div>
                             <div id="footer-incubator-btns" style="display: none">
-                                <button id="btn-incubate" class="btn btn-retro-accent fw-bold d-flex align-items-center gap-1" disabled>
+                                <button id="btn-incubate" class="btn btn-retro-primary fw-bold d-flex align-items-center gap-1" disabled>
                                     INCUBATE (
                                     <span id="incubate-cost-label"></span>
                                     <div id="incubate-cost-icon" class="ui-svg-mini"></div>
@@ -857,7 +857,7 @@
                                 </button>
                             </div>
                             <div id="footer-deck-btns" style="display: none">
-                                <button id="btn-pat-fish" class="btn btn-retro-dive fw-bold d-flex align-items-center gap-1" disabled>
+                                <button id="btn-pat-fish" class="btn btn-retro-secondary fw-bold d-flex align-items-center gap-1" disabled>
                                     <div id="btn-pat-icon" class="ui-svg-inline"></div>
                                     PAT FISH
                                 </button>
@@ -1183,6 +1183,6 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/zzfx@1.3.2/ZzFXMicro.min.js"></script>
-        <script src="finbred.min.js?v=1787556062919"></script>
+        <script src="finbred.min.js?v=1787807936094"></script>
     </body>
 </html>

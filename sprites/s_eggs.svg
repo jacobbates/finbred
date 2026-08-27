@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<style>
+		.s0 { fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round;stroke-width: 20 } 
+		.s1 { fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round;stroke-width: 15 } 
+	</style>
+	<path id="Layer 1 copy 2" fill-rule="evenodd" class="s0" d="m189.91 239.7c-31.72 0-57.37-25.65-57.36-57.37 0-31.73 25.65-57.37 57.38-57.37 31.72 0.01 57.37 25.66 57.36 57.38 0 31.73-25.65 57.37-57.38 57.36z"/>
+	<path id="Layer 1 copy 6" fill-rule="evenodd" class="s0" d="m66.36 241.23c-31.72 0-57.36-25.65-57.36-57.38 0-31.72 25.65-57.36 57.38-57.36 31.72 0.01 57.37 25.66 57.36 57.38 0 31.73-25.65 57.37-57.38 57.36z"/>
+	<path id="Layer 1 copy 7" fill-rule="evenodd" class="s0" d="m127.24 128.74c-31.72 0-57.37-25.65-57.36-57.38 0-31.72 25.65-57.36 57.38-57.36 31.72 0 57.37 25.65 57.36 57.38 0 31.72-25.65 57.37-57.38 57.36z"/>
+	<path id="Layer 1" class="s1" d="m40.29 189.23c-4.95-13.31 10.84-36.22 28.48-28.79"/>
+	<path id="Layer 1 copy 3" class="s1" d="m164.11 186.13c-4.95-13.31 10.83-36.21 28.48-28.79"/>
+	<path id="Layer 1 copy 8" class="s1" d="m103.93 65.49c-0.06-14.21 22.65-30.27 36.65-17.21"/>
+</svg>
