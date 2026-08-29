@@ -1,0 +1,30 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+	
+	<path id="leg1" d="m142.49 877.93c0 0-61.85 166.28-54.75 182.36 7.1 16.08 26.36 9.13 26.36 9.13l91.25-178.31z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="leg2" d="m938.42 877.93c0 0 61.85 166.28 54.75 182.36-7.1 16.08-26.36 9.13-26.36 9.13l-91.26-178.31z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="leg1 copy" d="m251.69 880.97c0 0-48.41 130.15-42.85 142.73 5.55 12.59 20.63 7.15 20.63 7.15l71.42-139.56z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="leg2 copy" d="m827 880.97c0 0 48.41 130.15 42.85 142.73-5.55 12.59-20.63 7.15-20.63 7.15l-71.42-139.56z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="ant2" fill-rule="evenodd" d="m529.81 213.81c0 0-119.31-78.02-134.85-80.1-15.55-2.07 11.15-43.6 11.15-43.6l-48.67 6.09 9.13-26.36c0 0-93.62-36.84-107.14-38.58" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="ant1" fill-rule="evenodd" d="m730.56 69.84c0 0-98.35 48.37-200.75 140.93" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="antbase" fill-rule="evenodd" d="m524.74 253.35c-55.51 0-100.38-18.35-100.38-41.06 0-22.71 44.87-41.06 100.38-41.06 55.51 0 100.38 18.35 100.38 41.06 0 22.71-44.87 41.06-100.38 41.06z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="antb2" fill-rule="evenodd" d="m732.08 92.14c-12.05 0-21.8-9.74-21.8-21.8 0-12.05 9.75-21.8 21.8-21.8 12.06 0 21.8 9.75 21.8 21.8 0 12.06-9.74 21.8-21.8 21.8z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="antb1" fill-rule="evenodd" d="m255.54 52.6c-12.05 0-21.8-9.75-21.8-21.8 0-12.06 9.75-21.8 21.8-21.8 12.06 0 21.8 9.74 21.8 21.8 0 12.05-9.74 21.8-21.8 21.8z" style="fill:#ad5d5a;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="body" fill-rule="evenodd" d="m128.29 206.57l821.28 6.09c46.64 3.04 91.25 30.41 96.32 82.12l-3.04 528.26c5.07 31.43-37.51 71.98-78.07 71.98l-823.3 2.03c-46.64 2.03-98.35-21.29-102.41-73l-5.07-538.39c2.37-42.21 37.58-75.41 94.29-79.09z" style="fill:#ea8e5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<g id="tv-container">
+		<path id="tv-display-back" fill-rule="evenodd" d="m814.52 290.5v522.3h-697.07v-522.3z" style="fill:#23483f"/>
+		<g class="tv-screen-group" clip-path="url(#tv-screen-clip)">
+			<rect class="tv-screen-static" x="0" y="200" width="1000" height="700" fill="url(#tv-static-pattern)"/>
+			<rect class="tv-screen-scanline-overlay" x="110" y="280" width="710" height="540" fill="none"/>
+			<rect class="tv-screen-glitch-bar" x="117" y="290" width="698" height="36" fill="#93dacc" opacity="0"/>
+		</g>
+	</g>
+	<path id="frame" fill-rule="evenodd" d="m165.48 247.71l744.55 0.64c42.73 2.43 83.76 26.48 88.64 72.38l-0.51 469.76c4.8 27.99-34.14 64.04-71.36 63.97l-747.71 0.53c-41.92 1.72-88.39-18.88-92.15-64.37l-5.82-472.98c2.02-37.05 33.49-66.38 84.36-69.93zm-40.23 100.26v406.96c0 27.61 22.39 50 50 50h576.29c27.61 0 50-22.39 50-50v-406.96c0-27.62-22.39-50-50-50h-576.29c-27.61 0-50 22.38-50 50z" style="fill:#f9b95e;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="bt2" fill-rule="evenodd" d="m933.35 806.94c-12.34 0-22.31-9.97-22.31-22.31 0-12.33 9.97-22.3 22.31-22.3 12.33 0 22.3 9.97 22.3 22.3 0 12.34-9.97 22.31-22.3 22.31z" style="fill:#ea8e5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="bt1" fill-rule="evenodd" d="m861.36 806.94c-12.34 0-22.31-9.97-22.31-22.31 0-12.33 9.97-22.3 22.31-22.3 12.33 0 22.31 9.97 22.31 22.3 0 12.34-9.98 22.31-22.31 22.31z" style="fill:#ea5c5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="sdt-4" fill-rule="evenodd" d="m840.96 719.78h118.87c4.97 0 9 4.03 9 9v1.27c0 4.97-4.03 9-9 9h-118.87c-4.98 0-9-4.03-9-9v-1.27c0-4.97 4.02-9 9-9z" style="fill:#ea8e5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="sdt-3" fill-rule="evenodd" d="m840.96 683.28h118.87c4.97 0 9 4.03 9 9v1.27c0 4.97-4.03 9-9 9h-118.87c-4.98 0-9-4.03-9-9v-1.27c0-4.97 4.02-9 9-9z" style="fill:#ea8e5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="sdt-2" fill-rule="evenodd" d="m840.96 646.78h118.87c4.97 0 9 4.03 9 9v1.27c0 4.97-4.03 9-9 9h-118.87c-4.98 0-9-4.03-9-9v-1.27c0-4.97 4.02-9 9-9z" style="fill:#ea8e5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="sdt-1" fill-rule="evenodd" d="m840.96 610.28h118.87c4.97 0 9 4.03 9 9v1.26c0 4.98-4.03 9-9 9h-118.87c-4.98 0-9-4.02-9-9v-1.26c0-4.97 4.02-9 9-9z" style="fill:#ea8e5c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:10"/>
+	<path id="eye2" fill-rule="evenodd" d="m900.39 585.96c-36.72 0-66.41-29.68-66.41-66.41 0-36.72 29.69-66.41 66.41-66.41 36.73 0 66.42 29.69 66.42 66.41 0 36.73-29.69 66.41-66.42 66.41z" style="fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+	<path id="eye1" fill-rule="evenodd" d="m900.39 429.79c-36.72 0-66.41-29.69-66.41-66.42 0-36.72 29.69-66.41 66.41-66.41 36.73 0 66.42 29.69 66.42 66.41 0 36.73-29.69 66.42-66.42 66.42z" style="fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:15"/>
+</svg>
