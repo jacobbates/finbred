@@ -345,18 +345,25 @@ Your player stats, biological discoveries, and challenge history are automatical
 
 ### Modified Assets
 
+Stock assets modified for use as static game elements:
+
 - **Coral Silhouettes** Designed by [Magnific](https://www.magnific.com)
 
 ### Icons
 
-Icons in Finbred are delivered via [Iconify](https://iconify.design/) and include assets from the following creators who require attribution:
+Icons in Finbred are delivered via [Iconify](https://iconify.design/) and include assets from the following collections and creators:
 
-- **Boxicons** by Atisa (CC BY 4.0 License)
+- **Codicons** by Microsoft Corporation (CC BY 4.0 License)
 - **EmojiOne Monotone** by JoyPixels (Attribution Required)
 - **Font Awesome 6 Solid** by Fonticons, Inc. (CC BY 4.0 License)
 - **Game-Icons** by Game-icons.net contributors (CC BY 3.0 License)
 - **Hugeicons** by Hugeicons (Attribution Required)
+- **Lucide** by Lucide Contributors (ISC License)
+- **Material Design Icons** by Pictogrammers (Apache 2.0 License)
+- **Material Line Icons** by Vivid Seats (MIT License)
+- **Material Symbols** by Google (Apache 2.0 License)
 - **Streamline** by Streamline (CC BY 4.0 License)
+- **Tabler Icons** by Paweł Kuna (MIT License)
 
 ---
 
