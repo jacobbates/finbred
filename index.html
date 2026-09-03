@@ -5,53 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
         <title>Finbred | Roguelike Deck-Builder with fish</title>
 
-        <!-- SEO -->
         <meta name="description" content="Finbred is a browser-based roguelike deck-builder. Draft fish. Build combos. Push your luck. Collect Omega Fish before Day 30." />
         <meta name="author" content="Jacob Bates" />
         <meta name="robots" content="index, follow" />
 
-        <!-- Mobile UX -->
         <meta name="format-detection" content="telephone=no" />
         <meta name="HandheldFriendly" content="true" />
 
-        <!-- Security -->
         <meta http-equiv="X-Content-Type-Options" content="nosniff" />
 
-        <!-- Canonical -->
         <link rel="canonical" href="https://finbred.fish/" />
 
-        <!-- Theme / Chrome -->
         <meta name="theme-color" content="#567158" />
 
-        <!-- Favicons -->
         <link rel="icon" type="image/png" href="icons/favicon-48x48.png" sizes="48x48" />
         <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16" />
         <link rel="shortcut icon" href="icons/favicon-32x32.png" />
 
-        <!-- Apple / iOS PWA -->
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="Finbred" />
         <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
 
-        <!-- Web App Manifest (PWA / Android) -->
         <link rel="manifest" href="manifest.json" />
 
-        <!-- Open Graph (Discord, iMessage, Facebook) -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://finbred.fish/" />
         <meta property="og:title" content="Finbred - Roguelike Deck-Builder in a Fish Tank" />
         <meta property="og:description" content="Draft fish. Build combos. Push your luck. Collect Omega Fish before Day 30 or they all die" />
         <meta property="og:image" content="https://finbred.fish/icons/og-image.png" />
 
-        <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Finbred - Roguelike Deck-Builder in a Fish Tank" />
         <meta name="twitter:description" content="Draft fish. Build combos. Push your luck. Collect Omega Fish before Day 30 or they all die." />
         <meta name="twitter:image" content="https://finbred.fish/icons/og-image.png" />
 
-        <!-- Structured Data -->
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -76,19 +65,14 @@
             }
         </script>
 
-        <!-- Performance -->
-        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-        <link rel="preconnect" href="https://api.iconify.design" />
-        <link rel="preload" href="finbred.min.js?v=1788393466854" as="script" />
+        <link rel="preload" href="finbred.min.js?v=1788405090825" as="script" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="vendors/bootstrap.min.css" />
 
-        <link rel="stylesheet" href="finbred.min.css?v=1788393466854" />
+        <link rel="stylesheet" href="finbred.min.css?v=1788405090825" />
     </head>
 
     <body class="bg-ink">
-        <!-- Loading Screen (removed after asset pipeline completes) -->
         <div id="loader-screen">
             <div class="loader-title">Finbred</div>
             <div class="loader-bar-track d-none">
@@ -161,7 +145,6 @@
                         </li>
                     </ul>
                     <div class="card-retro setup-card">
-                        <!-- Resume Run container (hidden unless snapshot exists) -->
                         <div id="setup-resume-container" class="d-none text-center">
                             <h5 class="fw-bold text-ink uppercase-tracking mb-3">Run in Progress</h5>
                             <div class="font-monospace text-ink small mb-1">
@@ -185,22 +168,18 @@
                                 <button id="btn-abandon-run" class="btn btn-retro-danger fw-bold" data-action="abandonRun">ABANDON RUN</button>
                             </div>
                         </div>
-                        <!-- New Game container (default view) -->
                         <div id="setup-new-container">
-                            <!-- Data binding for button/tile click handlers -->
                             <select id="input-mode" class="d-none">
                                 <option value=""></option>
                             </select>
                             <select id="input-challenge" class="d-none"></select>
 
                             <div class="tab-content">
-                                <!-- MODES TAB -->
                                 <div class="tab-pane fade show active" id="tab-setup-modes">
                                     <ul id="setup-mode-list" class="setup-mode-list"></ul>
                                     <div id="mode-desc" class="form-text mt-3 mb-3 p-2"></div>
                                 </div>
 
-                                <!-- CHALLENGES TAB -->
                                 <div class="tab-pane fade" id="tab-setup-challenges">
                                     <div class="fw-bold text-celadon-dark uppercase-tracking mb-3">Exotic Reef Challenges</div>
                                     <div id="setup-challenge-scroll" class="setup-challenge-scroll">
@@ -209,7 +188,6 @@
                                     <div id="challenge-desc" class="form-text mt-3 mb-3 p-2"></div>
                                 </div>
 
-                                <!-- CUSTOM TAB -->
                                 <div class="tab-pane fade" id="tab-setup-custom">
                                     <div class="setup-mode-btn active setup-purple mb-3" style="pointer-events: none">
                                         <div class="mode-icon ui-svg-control" id="custom-mode-icon"></div>
@@ -238,7 +216,6 @@
                                 </div>
                             </div>
 
-                            <!-- START RUN (shared btn - all tabs) -->
                             <div class="d-grid mt-3">
                                 <button id="btn-start-game" class="btn btn-retro-primary btn-lg btn-pulse fw-bold py-3 d-flex justify-content-center align-items-center gap-2" data-action="startGame">
                                     <div id="btn-start-icon" class="ui-svg-inline"></div>
@@ -367,7 +344,6 @@
                     </div>
                 </div>
 
-                <!-- Depths transition overlay -->
                 <div id="depths-fade-overlay"></div>
             </div>
         </div>
@@ -1027,7 +1003,6 @@
             </div>
         </div>
 
-        <!-- Fish Confirm Modal (FORESIGHT, GAMBLER, Incubator) -->
         <div class="modal fade" id="modal-fish-confirm" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content card-retro">
@@ -1037,7 +1012,6 @@
                             <div class="ui-svg-inline text-white" id="btn-pin-icon"></div>
                         </button>
                     </div>
-                    <!-- Incubator Pin Drawer - slides on toggle -->
                     <div class="pin-drawer" id="pin-slot-drawer">
                         <div class="pin-drawer-inner p-2 text-center">
                             <div class="small fw-bold uppercase-tracking mb-2 text-ink">Select Save Slot</div>
@@ -1056,15 +1030,10 @@
 
         <div id="toast-container" class="position-fixed end-0 p-3 d-flex flex-column justify-content-end" style="z-index: 1050; bottom: 90px; height: auto; max-height: 50vh; width: 100%; max-width: 350px; pointer-events: none"></div>
 
-        <!-- TOOLTIP CONTENT -->
         <div id="game-tooltip"></div>
 
-        <!-- SHARED SVG DEFS --
-             SMIL animateTransform on gradient across fill on compositor thread.
-             Injected .svg-var-overlay geometry via CSS fill -->
         <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none">
             <defs>
-                <!-- Cathode Ray Sprite Defs -->
                 <clipPath id="tv-screen-clip">
                     <path d="m814.52 290.5v522.3h-697.07v-522.3z" />
                 </clipPath>
@@ -1087,7 +1056,6 @@
                     <line x1="0" y1="96" x2="120" y2="96" stroke="#0e241f" stroke-width="4" opacity="0.6" />
                 </pattern>
 
-                <!-- Holo Overlay Sprite Defs -->
                 <linearGradient id="svg-var-holo" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stop-color="#ffb4dc" />
                     <stop offset="33%" stop-color="#78dcff" />
@@ -1096,7 +1064,6 @@
                     <animateTransform attributeName="gradientTransform" type="translate" values="-0.5,0; 0.5,0; -0.5,0" dur="3s" repeatCount="indefinite" />
                 </linearGradient>
 
-                <!-- Void Overlay Sprite Defs -->
                 <radialGradient id="svg-var-void" cx="50%" cy="50%" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stop-color="#463053" />
                     <stop offset="46%" stop-color="#463053" />
@@ -1106,7 +1073,6 @@
                     <animate attributeName="r" values="0.01; 1.5" dur="2.5s" repeatCount="indefinite" />
                 </radialGradient>
 
-                <!-- Holo Overlay Sprite Defs - Static Only -->
                 <linearGradient id="svg-var-holo-static" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stop-color="#ffb4dc" />
                     <stop offset="33%" stop-color="#78dcff" />
@@ -1114,7 +1080,6 @@
                     <stop offset="100%" stop-color="#dcb4ff" />
                 </linearGradient>
 
-                <!-- Void Overlay Sprite Defs - Static Only -->
                 <radialGradient id="svg-var-void-static" cx="50%" cy="50%" r="75%" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stop-color="#463053" />
                     <stop offset="46%" stop-color="#463053" />
@@ -1123,11 +1088,7 @@
                     <stop offset="100%" stop-color="#463053" />
                 </radialGradient>
 
-                <!-- Sticker Outline Filters (feMorphology)
-                     Single-pass alpha dilation replacing stacked CSS drop-shadows.
-                     Baked into rasterization step, avoids re-rasterizing. -->
 
-                <!-- Default: white outline + ink shadow -->
                 <filter id="f-sticker" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
                     <feMorphology in="SourceAlpha" operator="dilate" radius="1.3" result="expanded" />
                     <feFlood flood-color="#ffffff" result="white" />
@@ -1143,7 +1104,6 @@
                     </feMerge>
                 </filter>
 
-                <!-- Pending-action: amber outline + white outline + ink shadow -->
                 <filter id="f-sticker-amber" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
                     <feMorphology in="SourceAlpha" operator="dilate" radius="2.3" result="amber-ring" />
                     <feFlood flood-color="#f4a261" result="amber" />
@@ -1163,13 +1123,11 @@
                     </feMerge>
                 </filter>
 
-                <!-- Spawning Season Silhouette: Flood-fill with offset water color hex -->
                 <filter id="f-silhouette" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
                     <feFlood flood-color="#42628C" result="black-fill" />
                     <feComposite in="black-fill" in2="SourceAlpha" operator="in" result="shaped-silhouette" />
                 </filter>
 
-                <!-- Outline: near-white outline, no ink shadow -->
                 <filter id="f-outline" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
                     <feMorphology in="SourceAlpha" operator="dilate" radius="1.2" result="expanded" />
                     <feFlood flood-color="#fefef8" result="white" />
@@ -1182,11 +1140,20 @@
             </defs>
         </svg>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="vendors/bootstrap.bundle.min.js"></script>
+        <script src="vendors/chart.umd.min.js"></script>
+        <script src="vendors/howler.min.js"></script>
+        <script src="vendors/ZzFXMicro.min.js"></script>
+        <script src="finbred.min.js?v=1788405090825"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/zzfx@1.3.2/ZzFXMicro.min.js"></script>
-        <script src="finbred.min.js?v=1788393466854"></script>
+        <script>
+            if ("serviceWorker" in navigator) {
+                window.addEventListener("load", () => {
+                    navigator.serviceWorker.register("sw.js").catch((err) => {
+                        console.warn("[SW] Registration skipped:", err.message);
+                    });
+                });
+            }
+        </script>
     </body>
 </html>

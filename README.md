@@ -187,9 +187,9 @@ Select your starting bucket and Hatchery pool:
 | **Moby-Deck**        | Seeking a colossal legend could threaten capacity. Can you balance the books before imminent failure? Call me Fishmael. Pool: Gruppy, Goldfin, Gagfish, Neotet, Bettamax, Extrovurtle, Krub, Labster, Shrump + Spam Whale.                                                                                               |
 | **Fish-Bones**       | A lethal ecosystem focused on asset liquidation and localized necromancy. Dead fish can be resources. That's just recycling, really. Starting Bucket: 3 Gruppy, 1 Moorless Idler, 1 Dullphin, 4 Krub, 1 Flatflesh. Pool: Krub, Snool, Piranaah, Menta Ray, Ghostfin, Krubfrog, Wormbie, Flatflesh, Octoplus, Great Byte. |
 | **Neon-Nights**      | A volatile tank poisoned by no-good-punk Bettamax fish, eating seeds as a pastime activity. Deploy Bufferfish to survive the toxicity of our city. Pool: Goldfin, Neotet, Bettamax, Bufferfish, Shrump, Starefish, Anglerphish, Flatflesh + Krakpot, Sundisc.                                                            |
-| **Funny-Fish**     | A legally distinct collection of lab assets. Pat them. Stare at them longingly. Pool: Goldfin, Krub, Gagfish, Blu-Tang, Moorless Idler, Extrovurtle, Starefish, Bufferfish, Shrump, Skimhorse, Menta Ray, Great Byte.                                                                           |
+| **Funny-Fish**       | A legally distinct collection of lab assets. Pat them. Stare at them longingly. Pool: Goldfin, Krub, Gagfish, Blu-Tang, Moorless Idler, Extrovurtle, Starefish, Bufferfish, Shrump, Skimhorse, Menta Ray, Great Byte.                                                                                                    |
 | **Salmon-Run**       | The Slamon are migrating, and bringing uninvited guests against company policy. Starting Bucket: 10 Slamon. Pool: Slamon, Snool, Bufferfish, Gulpleco, Labster, Shrump, Piranaah, Great Byte.                                                                                                                            |
-| **Three-Will**       | When overweight Orculls attempt to jump suspiciously low marine walls... Starting Bucket: 4 Thumphead, 4 Goldfin, 2 Labster. Pool: Goldfin, Thumphead, Labster, Gulpleco, Skimhorse, Ghostfin, Zeal, Dullphin, Blu-Tang, Orcull.                                                                                 |
+| **Three-Will**       | When overweight Orculls attempt to jump suspiciously low marine walls... Starting Bucket: 4 Thumphead, 4 Goldfin, 2 Labster. Pool: Goldfin, Thumphead, Labster, Gulpleco, Skimhorse, Ghostfin, Zeal, Dullphin, Blu-Tang, Orcull.                                                                                         |
 
 ### Seeded Runs
 
@@ -277,7 +277,7 @@ Omega Fish are the rarest and most expensive entries. You need **3 in the tank s
 
 | Name                 | Description                                                                                                                    |
 | :------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| **Amnesia** ⚡       | Target a fish to restore its used Action ability. No effect if ability is still available or not an Action trait.             |
+| **Amnesia** ⚡       | Target a fish to restore its used Action ability. No effect if ability is still available or not an Action trait.              |
 | **Amphibian**        | Takes up no tank capacity. A freebie.                                                                                          |
 | **Autotomy**         | Survives being eaten. Sheds a corpse but regenerates.                                                                          |
 | **Battery** ⚡       | Converts 5 Eggs into 5 Science on demand.                                                                                      |
@@ -302,7 +302,7 @@ Omega Fish are the rarest and most expensive entries. You need **3 in the tank s
 | **Necromancer** ⚡   | Resurrects all corpses as random transient fish. No corpses? The caster implodes. Transient fish do not return to your Bucket. |
 | **Oceanographer** ⚡ | Choose any common fish to instantly summon as transient (excludes undiscovered). Transient fish do not return to your Bucket.  |
 | **Oversized**        | Takes up 2 tank slots. Worth the space?                                                                                        |
-| **Benthic**          | +1 Egg per empty tank slot at end-of-day Bioscan. Rewards restraint.                                                            |
+| **Benthic**          | +1 Egg per empty tank slot at end-of-day Bioscan. Rewards restraint.                                                           |
 | **Poison**           | Poisons a random tank occupant when fished. The victim expires after a few more draws.                                         |
 | **Poker** ⚡         | Target a fish to poke it out of the tank. It returns to your Bucket.                                                           |
 | **Predator**         | Devours a random tank occupant when fished. Victims return to your Bucket next day.                                            |
@@ -349,9 +349,13 @@ Stock assets modified for use as static game elements:
 
 - **Coral Silhouettes** Designed by [Magnific](https://www.magnific.com)
 
+### Fonts
+
+- **Space Grotesk** designed by [Florian Karsten](https://floriankarsten.com/) ([SIL Open Font License 1.1](https://openfontlicense.org/))
+
 ### Icons
 
-Icons in Finbred are delivered via [Iconify](https://iconify.design/) and include assets from the following collections and creators:
+Icons in Finbred are sourced from [Iconify](https://iconify.design/) collections. They include assets from the following collections and creators:
 
 - **Codicons** by Microsoft Corporation (CC BY 4.0 License)
 - **EmojiOne Monotone** by JoyPixels (Attribution Required)

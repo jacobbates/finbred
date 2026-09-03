@@ -7,3 +7,4 @@
 *.ogg linguist-vendored
 *.png linguist-vendored
 *.ico linguist-vendored
+vendors/** linguist-vendored
