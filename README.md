@@ -206,7 +206,7 @@ To share your run, switch to the **Activity** tab in your inventory during a gam
 
 ## Fish Roster
 
-All fish, their cost, base daily yields, ammonia contribution, and special abilities are listed below. Fish not marked as Omega Fish have a maximum deck limit.
+All fish, their cost, base daily yields, ammonia contribution, and special abilities are listed below.
 
 > _Daily values marked **+?** are dynamic - the amount varies depending on conditions in the tank at the time of scoring (e.g. ammonia level, number of other fish, presence of corpses). See the Ability column for details._
 

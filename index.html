@@ -65,11 +65,11 @@
             }
         </script>
 
-        <link rel="preload" href="finbred.min.js?v=1788414255766" as="script" />
+        <link rel="preload" href="finbred.min.js?v=1788519944361" as="script" />
 
         <link rel="stylesheet" href="vendors/bootstrap.min.css" />
 
-        <link rel="stylesheet" href="finbred.min.css?v=1788414255766" />
+        <link rel="stylesheet" href="finbred.min.css?v=1788519944361" />
     </head>
 
     <body class="bg-ink">
@@ -471,16 +471,23 @@
                             <div class="tab-pane fade p-3" id="tab-settings-info">
                                 <div class="settings-heading mt-3">Content Disclaimer</div>
                                 <p class="text-ink text-muted font-monospace small">Finbred is in active development. Alpha and playtest builds may contain placeholder content and assets for prototyping.</p>
+                                
+                                <div class="settings-heading mt-4">Support &amp; Contribute</div>
+                                <p class="text-ink text-muted font-monospace small pb-3">
+                                    Thank you for playing Finbred!
+                                </p>
                                 <a href="https://www.reddit.com/r/Finbred/" target="_blank" class="btn btn-retro-secondary btn-sm w-100 fw-bold mb-3">
-                                    <div id="btn-reddit-icon" class="ui-svg-inline"></div>
+                                    <div id="btn-feedback-icon" class="ui-svg-inline"></div>
                                     SHARE FEEDBACK
                                 </a>
-                                <div class="settings-heading mt-3">Support &amp; Contribute</div>
-                                <p class="text-ink text-muted font-monospace small pb-3">
-                                    This is a solo dev project. If you'd like to show your support, please share the game or consider
-                                    <a href="https://www.buymeacoffee.com/jacobbates" target="_blank" class="text-ink">buying me a coffee</a>
-                                    . Thanks for playing!
-                                </p>
+                                <a href="https://www.buymeacoffee.com/jacobbates" target="_blank" class="btn btn-retro-secondary btn-sm w-100 fw-bold mb-3">
+                                    <div id="btn-donate-icon" class="ui-svg-inline"></div>
+                                    BUY A COFFEE
+                                </a>
+                                <button type="button" class="btn btn-retro-secondary btn-sm w-100 fw-bold mb-3" data-action="openCredits">
+                                    <div id="btn-credits-icon" class="ui-svg-inline"></div>
+                                    VIEW CREDITS
+                                </button>
                                 <div class="settings-heading mt-3"></div>
                                 <p class="text-celadon font-monospace small text-center pb-2">Proudly developed in Naarm, Australia, on the traditional lands of the Kulin Nation.</p>
                             </div>
@@ -513,6 +520,71 @@
                             New Run
                         </button>
                         <button type="button" class="btn btn-retro-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-credits" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content card-retro">
+                    <div class="modal-header bg-retro-dark text-white">
+                        <div class="d-flex align-items-center gap-2">
+                            <div id="modal-credits-icon" class="ui-svg-inline text-white"></div>
+                            <h5 class="modal-title font-monospace fw-bold uppercase-tracking m-0">Credits &amp; Attributions</h5>
+                        </div>
+                        <button type="button" class="btn-close btn-close-white" data-action="closeCredits"></button>
+                    </div>
+                    <div class="modal-body bg-paper p-3">
+                        <div class="credits-scroll-container">
+                            
+                            <div class="fw-bold">Finbred</div>
+                            <p class="small font-monospace mb-3">
+                                Finbred is developed by Jacob Bates. <br/>
+                                Copyright (c) 2026. All Rights Reserved.
+                            </p>
+
+                            <div class="fw-bold">Fonts</div>
+                            <ul class="small font-monospace ps-3 mb-3">
+                                <li>
+                                    <strong>Space Grotesk</strong> designed by
+                                    <a href="https://floriankarsten.com/" target="_blank" rel="noopener noreferrer" class="fw-semibold">Florian Karsten</a>
+                                    (<a href="https://openfontlicense.org/" target="_blank" rel="noopener noreferrer">SIL Open Font License 1.1</a>)
+                                </li>
+                            </ul>
+
+                            <div class="fw-bold">Icons</div>
+                            <p class="small font-monospace mb-2">
+                                Icons in Finbred are sourced from
+                                <a href="https://iconify.design/" target="_blank" rel="noopener noreferrer" class="fw-semibold">Iconify</a>
+                                collections. They include assets from the following collections and creators:
+                            </p>
+                            <ul class="small font-monospace ps-3 mb-3">
+                                <li><strong>Codicons</strong> by Microsoft Corporation (CC BY 4.0 License)</li>
+                                <li><strong>EmojiOne Monotone</strong> by JoyPixels (Attribution Required)</li>
+                                <li><strong>Font Awesome 6 Solid</strong> by Fonticons, Inc. (CC BY 4.0 License)</li>
+                                <li><strong>Game-Icons</strong> by Game-icons.net contributors (CC BY 3.0 License)</li>
+                                <li><strong>Hugeicons</strong> by Hugeicons (Attribution Required)</li>
+                                <li><strong>Lucide</strong> by Lucide Contributors (ISC License)</li>
+                                <li><strong>Material Design Icons</strong> by Pictogrammers (Apache 2.0 License)</li>
+                                <li><strong>Material Line Icons</strong> by Vivid Seats (MIT License)</li>
+                                <li><strong>Material Symbols</strong> by Google (Apache 2.0 License)</li>
+                                <li><strong>Streamline</strong> by Streamline (CC BY 4.0 License)</li>
+                                <li><strong>Tabler Icons</strong> by Paweł Kuna (MIT License)</li>
+                            </ul>
+
+                            <div class="fw-bold"> Modified Assets</div>
+                            <ul class="small font-monospace ps-3 mb-3">
+                                <li>
+                                    <strong>Coral Silhouettes</strong> Designed by
+                                    <a href="https://www.magnific.com" target="_blank" rel="noopener noreferrer" class="fw-semibold">Magnific</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-paper d-flex justify-content-end border-top-ink">
+                        <button type="button" class="btn btn-retro-secondary" data-action="closeCredits">Close</button>
                     </div>
                 </div>
             </div>
@@ -1144,8 +1216,7 @@
         <script src="vendors/chart.umd.min.js"></script>
         <script src="vendors/howler.min.js"></script>
         <script src="vendors/ZzFXMicro.min.js"></script>
-        <script src="finbred.min.js?v=1788414255766"></script>
-
+        <script src="finbred.min.js?v=1788519944361"></script>
         <script>
             if ("serviceWorker" in navigator) {
                 window.addEventListener("load", () => {
