@@ -253,6 +253,7 @@ All fish, their cost, base daily yields, ammonia contribution, and special abili
 | <img src="sprites/f_narwhal.svg" width="32">     | **Nullwhal**       | 12   | -   | -   | -   | Impales fish... but worth a lot dead.                 | [Impaler](#traits-and-abilities), [Ivory](#traits-and-abilities)          |
 | <img src="sprites/f_mantaray.svg" width="32">    | **Menta Ray**      | 12   | -   | +?  | -   | Cleans the tank, scientifically.                      | [Filter Feeder](#traits-and-abilities)                                    |
 | <img src="sprites/f_dolphin.svg" width="32">     | **Dullphin**       | 12   | -1  | -1  | -   | Resurrects the dead with a mirthless smile.           | [Necromancer](#traits-and-abilities) ⚡                                   |
+| <img src="sprites/f_beluga.svg" width="32">      | **Awooga**         | 12   | -2  | -   | +1  | Affectionate. Adopts Transient Fish into your Bucket. | [Adoption](#traits-and-abilities) ⚡                                      |
 
 ### Ω Omega Fish _(Win Condition)_
 
@@ -277,6 +278,7 @@ Omega Fish are the rarest and most expensive entries. You need **3 in the tank s
 
 | Name                 | Description                                                                                                                    |
 | :------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| **Adoption** ⚡     | Target a Transient Fish and adopt it from the Tank to your Bucket for tomorrow. That Fish is no longer Transient.             |
 | **Amnesia** ⚡       | Target a fish to restore its used Action ability. No effect if ability is still available or not an Action trait.              |
 | **Amphibian**        | Takes up no tank capacity. A freebie.                                                                                          |
 | **Autotomy**         | Survives being eaten. Sheds a corpse but regenerates.                                                                          |
