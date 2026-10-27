@@ -261,16 +261,16 @@ All fish, their cost, base daily yields, ammonia contribution, and special abili
 
 Omega Fish are the rarest and most expensive entries. You need **3 in the tank simultaneously** to win. They have no deck limit.
 
-|                                                 | Fish           | 💰  | 🥚  | 🧪  | ☣️  | Description                                   | Ability                                                                |
-| ----------------------------------------------- | -------------- | --- | --- | --- | --- | --------------------------------------------- | ---------------------------------------------------------------------- |
-| <img src="sprites/f_sunfish.svg" width="32">    | **Sundisc**    | 34  | -   | -   | +?  | May not choose kindness. Fickle like that.    | [Fickle](#traits-and-abilities)                                        |
-| <img src="sprites/f_kraken.svg" width="32">     | **Krakpot**    | 36  | -   | -3  | -   | Soulless Science sucker. A swimming Casino.   | [Gambler](#traits-and-abilities) ⚡                                    |
-| <img src="sprites/f_penguin.svg" width="32">    | **Pingwing**   | 34  | -   | -   | -   | Drags in Fish behind it against their will.   | [Synchronist](#traits-and-abilities)                                   |
+|                                                 | Fish           | 💰  | 🥚  | 🧪  | ☣️  | Description                                   | Ability                                                                 |
+| ----------------------------------------------- | -------------- | --- | --- | --- | --- | --------------------------------------------- | ----------------------------------------------------------------------- |
+| <img src="sprites/f_sunfish.svg" width="32">    | **Sundisc**    | 34  | -   | -   | +?  | May not choose kindness. Fickle like that.    | [Fickle](#traits-and-abilities)                                         |
+| <img src="sprites/f_kraken.svg" width="32">     | **Krakpot**    | 36  | -   | -3  | -   | Soulless Science sucker. A swimming Casino.   | [Gambler](#traits-and-abilities) ⚡                                     |
+| <img src="sprites/f_penguin.svg" width="32">    | **Pingwing**   | 34  | -   | -   | -   | Drags in Fish behind it against their will.   | [Synchronist](#traits-and-abilities)                                    |
 | <img src="sprites/f_axolotl.svg" width="32">    | **Haxolotl**   | 40  | -   | -   | -   | Takes up no space. Outsmarts death itself.    | [Autotomist](#traits-and-abilities), [Amphibian](#traits-and-abilities) |
-| <img src="sprites/f_greatwhite.svg" width="32"> | **Great Byte** | 36  | -2  | -   | +1  | Devours all prey. Inedible. Inevitable.       | [Predator](#traits-and-abilities)                                      |
-| <img src="sprites/f_spermwhale.svg" width="32"> | **Spam Whale** | 38  | -   | -   | -   | Too large for one slot. Insists size matters. | [Oversized](#traits-and-abilities)                                     |
-| <img src="sprites/f_orca.svg" width="32">       | **Orcull**     | 39  | +?  | -   | +1  | Shreds the weak and thrives amongst corpses.  | [Shredder](#traits-and-abilities) ⚡, [Haunter](#traits-and-abilities) |
-| <img src="sprites/f_seadragon.svg" width="32">  | **Seadragoon** | 40  | +3  | -   | +2  | Scries any Transient Fish. Oceans fear it.    | [Oceanographer](#traits-and-abilities) ⚡                              |
+| <img src="sprites/f_greatwhite.svg" width="32"> | **Great Byte** | 36  | -2  | -   | +1  | Devours all prey. Inedible. Inevitable.       | [Predator](#traits-and-abilities)                                       |
+| <img src="sprites/f_spermwhale.svg" width="32"> | **Spam Whale** | 38  | -   | -   | -   | Too large for one slot. Insists size matters. | [Oversized](#traits-and-abilities)                                      |
+| <img src="sprites/f_orca.svg" width="32">       | **Orcull**     | 39  | +?  | -   | +1  | Shreds the weak and thrives amongst corpses.  | [Shredder](#traits-and-abilities) ⚡, [Haunter](#traits-and-abilities)  |
+| <img src="sprites/f_seadragon.svg" width="32">  | **Seadragoon** | 40  | +3  | -   | +2  | Scries any Transient Fish. Oceans fear it.    | [Oceanographer](#traits-and-abilities) ⚡                               |
 
 ---
 
@@ -278,52 +278,52 @@ Omega Fish are the rarest and most expensive entries. You need **3 in the tank s
 
 ## Traits and Abilities
 
-| Name                 | Description                                                                                                                    |
-| :------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| **Adopter** ⚡      | Target a Transient Fish and adopt it from the Tank to your Bucket for tomorrow. That Fish is no longer Transient.              |
-| **Amnestic** ⚡     | Target a fish to restore its used Action ability. No effect if ability is still available or not an Action trait.              |
-| **Amphibian**        | Takes up no tank capacity. A freebie.                                                                                          |
-| **Autotomist**       | Survives being eaten. Sheds a corpse but regenerates.                                                                          |
-| **Barometer**        | Bonus +5 Eggs at end-of-day if weather is currently active.                                                                   |
-| **Battery** ⚡       | Converts 5 Eggs into 5 Science on demand.                                                                                      |
-| **Benthic**          | +1 Egg per empty tank slot at end-of-day Bioscan. Rewards restraint.                                                           |
-| **Bone Eater**       | Devours a corpse when fished, instantly earning +3 Eggs and +2 Science.                                                        |
-| **Burrower** ⚡      | Burrows out of the tank, returning into your Bucket to be redrawn. Bucket is reshuffled after use.                             |
-| **Cleaner**          | Scrubs 1 ammonia when fished into the tank.                                                                                    |
-| **Crustatiable**     | 50% chance to devour a Crustacean (Krub, Shrump, Labster) when fished into the tank.                                           |
-| **Curer** ⚡         | Cures all poisoned fish in the tank, instantly earning +2 Science per fish cured.                                             |
+| Name                 | Description                                                                                                                                                                              |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adopter** ⚡       | Target a Transient Fish and adopt it from the Tank to your Bucket for tomorrow. That Fish is no longer Transient.                                                                        |
+| **Amnestic** ⚡      | Target a fish to restore its used Action ability. No effect if ability is still available or not an Action trait.                                                                        |
+| **Amphibian**        | Takes up no tank capacity. A freebie.                                                                                                                                                    |
+| **Autotomist**       | Survives being eaten. Sheds a corpse but regenerates.                                                                                                                                    |
+| **Barometer**        | Bonus +5 Eggs at end-of-day if weather is currently active.                                                                                                                              |
+| **Battery** ⚡       | Converts 5 Eggs into 5 Science on demand.                                                                                                                                                |
+| **Benthic**          | +1 Egg per empty tank slot at end-of-day Bioscan. Rewards restraint.                                                                                                                     |
+| **Bone Eater**       | Devours a corpse when fished, instantly earning +3 Eggs and +2 Science.                                                                                                                  |
+| **Burrower** ⚡      | Burrows out of the tank, returning into your Bucket to be redrawn. Bucket is reshuffled after use.                                                                                       |
+| **Cleaner**          | Scrubs 1 ammonia when fished into the tank.                                                                                                                                              |
+| **Crustatiable**     | 50% chance to devour a Crustacean (Krub, Shrump, Labster) when fished into the tank.                                                                                                     |
+| **Curer** ⚡         | Cures all poisoned fish in the tank, instantly earning +2 Science per fish cured.                                                                                                        |
 | **Deathroller** ⚡   | Target a fish to deathroll it into a corpse. Thrashing knocks another random fish from the tank as collateral damage. Both return to your Bucket tomorrow. Requires 3+ fish in the tank. |
-| **Escapist** ⚡      | Returns all fish to your Bucket and reshuffles, resetting the Tank. Exhausted abilities stay used.                             |
-| **Explodable** ⚡    | Detonates all fish currently in the tank including itself, leaving corpses behind.                                             |
-| **Fickle**           | Might produce ammonia when fished. Might not. Fickle like that.                                                                |
-| **Filtrator**        | Clears all ammonia when fished, earning +3 Science per ammonia cleared.                                                        |
-| **Foresight** ⚡     | Peek at the next fish in your Bucket. Draw it or reshuffle.                                                                    |
-| **Gambler** ⚡       | Literally bet all of your stashed Science on red or black. Double or nothing.                                                  |
-| **Gregarious**       | Bonus +4 Eggs at end-of-day if the tank is full.                                                                               |
-| **Haunter**          | +2 Eggs per corpse in the tank at end-of-day. Death is profitable.                                                             |
-| **Headboomer** ⚡    | Aggressively ram a targeted Thumphead to cause a sonic boom, triggering a random weather change.                               |
-| **Impaler**          | Skewers a random tank occupant when fished. They return to your Bucket next day.                                               |
-| **Ivoried**          | Instantly yields +10 Science when killed.                                                                                      |
-| **Jockey**           | Bets on a random tank occupant when fished. Copies their end-of-day score.                                                     |
-| **Lurer** ⚡         | Lures a random ammonia-free fish from your Bucket into the tank.                                                               |
-| **Matriarch**        | +2 Science per Mediocre Gruppy in the tank at end-of-day.                                                                      |
-| **Migrator**         | Summons a random Transient Fish whenever it enters the tank. Transient Fish are temporary and do not return to your Bucket.    |
-| **Necromancer** ⚡   | Resurrects all corpses as random transient fish. No corpses? The caster implodes. Transient fish do not return to your Bucket  |
-| **Oceanographer** ⚡ | Choose any common fish to instantly summon as transient (excludes undiscovered). Transient fish do not return to your Bucket.  |
-| **Oversized**        | Takes up 2 tank slots. Worth the space?                                                                                        |
-| **Poisonous**        | Poisons a random tank occupant when fished. The victim expires after a few more draws.                                         |
-| **Poker** ⚡         | Target a fish to poke it out of the tank. It returns to your Bucket.                                                           |
-| **Predator**         | Devours a random tank occupant when fished. Victims return to your Bucket next day.                                            |
-| **Researcher** ⚡    | Search your Bucket and choose a common fish to draw.                                                                           |
-| **Rivalrous**        | Will attack a rival Mbrawla, or any fish with the Rivalry trait, as it enters the tank.                                        |
-| **Rockpooler**       | +1 Egg for each Finbred offspring in the tank that has the Rockpool trait. Applied at end-of-day scoring.                      |
-| **Scavenger**        | Earns +2 Science per ammonia at end-of-day. Loves a dirty tank.                                                                |
-| **Shredder** ⚡      | Target a non-toxic fish to permanently destroy it and remove it from your Bucket. Leaves a corpse behind.                      |
-| **Socialite**        | +1 Eggs per Mediocre Goldfin in the tank at end-of-day.                                                                        |
-| **Stinger** ⚡       | Target a fish to instantly yield its score. The target can still scores at end-of-day.                                          |
-| **Suctionist**       | Clears all ammonia when fished into the tank.                                                                                  |
-| **Synchronist**      | Pulls the next fish from your Bucket when fished into the tank.                                                                |
-| **Telekinetic** ⚡   | Target a fish to re-trigger its entry effect. Used on self or Omega Fish... minds are blown.                                   |
+| **Escapist** ⚡      | Returns all fish to your Bucket and reshuffles, resetting the Tank. Exhausted abilities stay used.                                                                                       |
+| **Explodable** ⚡    | Detonates all fish currently in the tank including itself, leaving corpses behind.                                                                                                       |
+| **Fickle**           | Might produce ammonia when fished. Might not. Fickle like that.                                                                                                                          |
+| **Filtrator**        | Clears all ammonia when fished, earning +3 Science per ammonia cleared.                                                                                                                  |
+| **Foresighted** ⚡   | Peek at the next fish in your Bucket. Draw it or reshuffle.                                                                                                                              |
+| **Gambler** ⚡       | Literally bet all of your stashed Science on red or black. Double or nothing.                                                                                                            |
+| **Gregarious**       | Bonus +4 Eggs at end-of-day if the tank is full.                                                                                                                                         |
+| **Haunter**          | +2 Eggs per corpse in the tank at end-of-day. Death is profitable.                                                                                                                       |
+| **Headboomer** ⚡    | Aggressively ram a targeted Thumphead to cause a sonic boom, triggering a random weather change.                                                                                         |
+| **Impaler**          | Skewers a random tank occupant when fished. They return to your Bucket next day.                                                                                                         |
+| **Ivoried**          | Instantly yields +10 Science when killed.                                                                                                                                                |
+| **Jockey**           | Bets on a random tank occupant when fished. Copies their end-of-day score.                                                                                                               |
+| **Lurer** ⚡         | Lures a random ammonia-free fish from your Bucket into the tank.                                                                                                                         |
+| **Matriarch**        | +2 Science per Mediocre Gruppy in the tank at end-of-day.                                                                                                                                |
+| **Migrator**         | Summons a random Transient Fish whenever it enters the tank. Transient Fish are temporary and do not return to your Bucket.                                                              |
+| **Necromancer** ⚡   | Resurrects all corpses as random transient fish. No corpses? The caster implodes. Transient fish do not return to your Bucket                                                            |
+| **Oceanographer** ⚡ | Choose any common fish to instantly summon as transient (excludes undiscovered). Transient fish do not return to your Bucket.                                                            |
+| **Oversized**        | Takes up 2 tank slots. Worth the space?                                                                                                                                                  |
+| **Poisonous**        | Poisons a random tank occupant when fished. The victim expires after a few more draws.                                                                                                   |
+| **Poker** ⚡         | Target a fish to poke it out of the tank. It returns to your Bucket.                                                                                                                     |
+| **Predator**         | Devours a random tank occupant when fished. Victims return to your Bucket next day.                                                                                                      |
+| **Researcher** ⚡    | Search your Bucket and choose a common fish to draw.                                                                                                                                     |
+| **Rivalrous**        | Will attack a rival Mbrawla, or any fish with the Rivalry trait, as it enters the tank.                                                                                                  |
+| **Rockpooler**       | +1 Egg for each Finbred offspring in the tank that has the Rockpool trait. Applied at end-of-day scoring.                                                                                |
+| **Scavenger**        | Earns +2 Science per ammonia at end-of-day. Loves a dirty tank.                                                                                                                          |
+| **Shredder** ⚡      | Target a non-toxic fish to permanently destroy it and remove it from your Bucket. Leaves a corpse behind.                                                                                |
+| **Socialite**        | +1 Eggs per Mediocre Goldfin in the tank at end-of-day.                                                                                                                                  |
+| **Stinger** ⚡       | Target a fish to instantly yield its score. The target can still scores at end-of-day.                                                                                                   |
+| **Suctionist**       | Clears all ammonia when fished into the tank.                                                                                                                                            |
+| **Synchronist**      | Pulls the next fish from your Bucket when fished into the tank.                                                                                                                          |
+| **Telekinetic** ⚡   | Target a fish to re-trigger its entry effect. Used on self or Omega Fish... minds are blown.                                                                                             |
 
 ---
 
