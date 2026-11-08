@@ -65,11 +65,11 @@
             }
         </script>
 
-        <link rel="preload" href="finbred.min.js?v=1793865712612" as="script" />
+        <link rel="preload" href="finbred.min.js?v=1794141680144" as="script" />
 
         <link rel="stylesheet" href="vendors/bootstrap.min.css" />
 
-        <link rel="stylesheet" href="finbred.min.css?v=1793865712612" />
+        <link rel="stylesheet" href="finbred.min.css?v=1794141680144" />
     </head>
 
     <body class="bg-ink">
@@ -293,8 +293,10 @@
                 <div id="tank-divider" class="tank-divider" aria-hidden="true"></div>
 
                 <div id="tank-container" class="flex-grow-1 position-relative">
+                    <canvas id="water-shader-canvas"></canvas>
                     <div id="coral-bg-layer"></div>
                     <div class="tank-layer sand"></div>
+                    <div id="coral-shadow-layer"></div>
                     <div id="coral-layer"></div>
                     <div id="win-visual-overlay" aria-hidden="true"></div>
                     <div id="static-noise-overlay" class="static-noise-overlay d-none" aria-hidden="true"></div>
@@ -1225,7 +1227,7 @@
         <script src="vendors/chart.umd.min.js"></script>
         <script src="vendors/howler.min.js"></script>
         <script src="vendors/ZzFXMicro.min.js"></script>
-        <script src="finbred.min.js?v=1793865712612"></script>
+        <script src="finbred.min.js?v=1794141680144"></script>
         <script>
             if ("serviceWorker" in navigator) {
                 window.addEventListener("load", () => {
