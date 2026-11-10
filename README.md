@@ -351,6 +351,10 @@ Your player stats, biological discoveries, and challenge history are automatical
 
 ## Credits & Attributions
 
+### Music
+
+- **"C-Funk"**, **"Disco con Tutti"**, **"Disco Medusae"**, **"Disco Sting"**, **"Electro Cabello"**, **"Enter the Party"**, **"Ether Disco"**, **"Funky Chunk"**, **"Stringed Disco"**, **"Your Call"** by [Kevin MacLeod](https://incompetech.com/) ([CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/))
+
 ### Modified Assets
 
 Stock assets modified for use as static game elements:
@@ -360,6 +364,7 @@ Stock assets modified for use as static game elements:
 ### Fonts
 
 - **Space Grotesk** designed by [Florian Karsten](https://floriankarsten.com/) ([SIL Open Font License 1.1](https://openfontlicense.org/))
+- **Special Elite** designed by [Astigmatic](https://fonts.google.com/specimen/Special+Elite) ([Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0))
 
 ### Icons
 
