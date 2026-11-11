@@ -294,7 +294,7 @@ Omega Fish are the rarest and most expensive entries. You need **3 in the tank s
 | **Curer** ⚡         | Cures all poisoned fish in the tank, instantly earning +2 Science per fish cured.                                                                                                        |
 | **Deathroller** ⚡   | Target a fish to deathroll it into a corpse. Thrashing knocks another random fish from the tank as collateral damage. Both return to your Bucket tomorrow. Requires 3+ fish in the tank. |
 | **Escapist** ⚡      | Returns all fish to your Bucket and reshuffles, resetting the Tank. Exhausted abilities stay used.                                                                                       |
-| **Explodable** ⚡    | Detonates all fish currently in the tank including itself, leaving corpses behind.                                                                                                       |
+| **Explodable** ⚡    | Detonates all fish currently in the tank including itself. Ammonia-producing fish leave corpses behind.                                                                                  |
 | **Fickle**           | Might produce ammonia when fished. Might not. Fickle like that.                                                                                                                          |
 | **Filtrator**        | Clears all ammonia when fished, earning +3 Science per ammonia cleared.                                                                                                                  |
 | **Foresighted** ⚡   | Peek at the next fish in your Bucket. Draw it or reshuffle.                                                                                                                              |
