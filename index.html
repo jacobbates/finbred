@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
         <title>Finbred | Roguelike Deck-Builder with fish</title>
 
-        <meta name="description" content="Finbred is a browser-based roguelike deck-builder. Draft fish. Build combos. Push your luck. Collect Omega Fish before Day 30." />
+        <meta name="description" content="Finbred is a roguelike deck-builder. Draft fish. Build combos. Push your luck. Collect Omega Fish before Day 30." />
         <meta name="author" content="Jacob Bates" />
         <meta name="robots" content="index, follow" />
 
@@ -47,7 +47,7 @@
                 "@type": "VideoGame",
                 "name": "Finbred",
                 "url": "https://finbred.fish/",
-                "description": "A browser-based roguelike deck-builder. Draft fish, build combos, and survive ammonia crashes to collect Omega Fish before Day 30.",
+                "description": "A roguelike deck-builder. Draft fish, build combos, and survive ammonia crashes to collect Omega Fish before Day 30.",
                 "genre": ["Roguelike", "Deck-builder", "Strategy"],
                 "gamePlatform": "Web browser",
                 "applicationCategory": "Game",
@@ -65,11 +65,11 @@
             }
         </script>
 
-        <link rel="preload" href="finbred.min.js?v=1794742344070" as="script" />
+        <link rel="preload" href="finbred.min.js?v=1794813050728" as="script" />
 
         <link rel="stylesheet" href="vendors/bootstrap.min.css" />
 
-        <link rel="stylesheet" href="finbred.min.css?v=1794742344070" />
+        <link rel="stylesheet" href="finbred.min.css?v=1794813050728" />
     </head>
 
     <body class="bg-ink">
@@ -86,7 +86,7 @@
                 <div class="ui-container d-flex w-100 justify-content-between align-items-center">
                     <span class="navbar-brand mb-0 h4 fw-bold text-white uppercase-tracking d-flex align-items-center">
                         <div id="navbar-logo-icon" class="ui-svg-nav-logo me-2"></div>
-                        Finbred
+                        <span id="navbar-title">Finbred</span>
                     </span>
                     <div class="d-flex align-items-center gap-4">
                         <button id="btn-open-player" class="btn btn-ghost" data-action="openPlayer">
@@ -442,9 +442,9 @@
                                 <div class="text-muted small font-monospace mt-2">Applies a retro scanline overlay effect</div>
                                 <div class="form-check form-switch mt-3">
                                     <input class="form-check-input" type="checkbox" id="input-seed-overlay-toggle" />
-                                    <label class="form-check-label text-ink fw-semibold" for="input-seed-overlay-toggle">Display Seed in Tank</label>
+                                    <label class="form-check-label text-ink fw-semibold" for="input-seed-overlay-toggle">Display Seed # in Header</label>
                                 </div>
-                                <div class="text-muted small font-monospace mb-3">Shows the current run's seed visually in the tank corner.</div>
+                                <div class="text-muted small font-monospace mb-3">Shows the current Seed number in GUI header during a run. Disable to hide.</div>
                             </div>
                             <div class="tab-pane fade p-3" id="tab-settings-gameplay">
                                 <div class="settings-heading">Prompts</div>
@@ -1233,7 +1233,7 @@
         <script src="vendors/chart.umd.min.js"></script>
         <script src="vendors/howler.min.js"></script>
         <script src="vendors/ZzFXMicro.min.js"></script>
-        <script src="finbred.min.js?v=1794742344070"></script>
+        <script src="finbred.min.js?v=1794813050728"></script>
         <script>
             if ("serviceWorker" in navigator) {
                 window.addEventListener("load", () => {
